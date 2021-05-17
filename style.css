@@ -1,0 +1,128 @@
+.main-block
+{
+    margin: 100px 460px 135px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-part
+{
+    margin-left: 20px;
+}
+
+.text-part
+{
+    margin: 0 20px 0 60px;
+}
+
+.list
+{
+    font: 19px/36px "Georgia";
+    color: #555555;
+    margin-left: -20px;
+}
+
+.list-head
+{
+    font: 600 24px/32px "Helvetica" sans-serif; 
+    color: #15a98c; 
+    margin-bottom: -7px;
+}
+
+.img-block 
+{
+    object-fit: cover;
+    width: 330px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.list-block
+{
+    margin-top: 54px;
+}
+
+.list-one
+{
+    margin: -13px 0 44px 0;
+}
+
+.quote-block
+{
+    width: 570px;
+    height: 350px;
+    margin: 50px 0 50px 0;
+}
+
+.quote
+{
+    font: italic 28px/42px "Georgia", serif;
+    color: #555555;
+    margin: -22px 0 0 60px;
+}
+
+.original
+{
+   font: 600 16px/42px "Helvetica", sans-serif;
+   color: #333333;
+   margin: 0 0 0 60px; 
+}
+
+.text-block
+{
+    margin-top: -63px;
+}
+
+.main-title
+{
+    font: bold 48px "Helvetica", sans-serif;
+    color: #333333;
+}
+
+.main-title::after
+{
+    display: block;
+    content: "";
+    width: 55px;
+    height: 1px;
+    border: solid #45c3aa;
+    background: #45c3aa;
+    border-radius: 6px;
+    margin-top: 23px;
+}
+
+.para-one
+{
+    font: 19px/32px "Georgia", serif;
+    color: #555555;
+    margin: 43px 0 60px; 
+}
+
+.para-two
+{
+    font: 19px/32px "Georgia", serif;
+    color: #555555;
+    margin: -13px 0 41px;
+}
+
+.my-hobby
+{
+    font: 400 36px/42px "Helvetica", sans-serif;
+    color: #333333;
+    margin: -18px 0 30px; 
+}
+
+.link-to-me
+{
+    font: 21px/32px "Georgia", serif;
+    color: #15a98b; 
+    margin-top: 0;
+}
+
+.link-to-me:hover
+{
+    font: 21px/32px "Georgia", serif;
+    color: #126353;
+    margin-top: 0;
+    cursor: pointer;
+}
